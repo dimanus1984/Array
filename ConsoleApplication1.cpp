@@ -1,3 +1,4 @@
+
 #include <iostream>
 
 using namespace std;
@@ -23,4 +24,3 @@ int main()
 		cout << "array[" << i << "]" << "\t\t" << sum << endl;
 	}
 }
-
