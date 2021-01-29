@@ -29,13 +29,13 @@ void oneArray()
 void twoArray()
 {
     int n, i, * a, f;
-    cout << "Введите количество элементов массива: ";
+    cout << "Enter kolichestvo element massiva: ";
     cin >> n;
     f = 0;
     a = new int[n];
     for (i = 0; i < n; i++)
     {
-        cout << "Введите элемент массива: ";
+        cout << "Enter element massiva: ";
         cin >> a[i];
     }
     for (i = 1; i < n; i++)
@@ -60,13 +60,13 @@ void twoArray()
     }
     if (f == 1)
     {
-        cout << "Последовательность убывает \n";
+        cout << "Posledovatel'nost' ubyvayet \n";
     }
     if (f == 2)
     {
-        cout << "Последовательность возрастает \n";
+        cout << "Posledovatel'nost' vozrastayet \n";
     }
-    if (f == -1) cout << "Последовательность не возрастает и не убывает";
+    if (f == -1) cout << "Posledovatel'nost' ne vozrastayet i ne ubyvayet";
 }
 
 int main()
